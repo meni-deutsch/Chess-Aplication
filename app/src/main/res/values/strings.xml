@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Chess &amp; Friends</string>
+    <string name="enter_password">enter password</string>
+    <string name="enter_username">enter username</string>
+    <string name="enter_password_again">enter password again</string>
+    <string name="play_against_the_computer">Play against the computer?</string>
+</resources>

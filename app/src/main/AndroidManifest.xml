@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ChessAplication">
+        <activity
+            android:name=".ViewStatistics"
+            android:exported="false" />
+        <activity
+            android:name=".GameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StatisticsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoadGameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreateGameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
